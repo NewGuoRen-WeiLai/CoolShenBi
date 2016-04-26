@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7EAE94F1CCF548E0092F9A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE94E1CCF548E0092F9A3 /* main.m */; };
+		A7EAE9521CCF548E0092F9A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE9511CCF548E0092F9A3 /* AppDelegate.m */; };
+		A7EAE9551CCF548E0092F9A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE9541CCF548E0092F9A3 /* ViewController.m */; };
+		A7EAE9581CCF548E0092F9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EAE9561CCF548E0092F9A3 /* Main.storyboard */; };
+		A7EAE95A1CCF548E0092F9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EAE9591CCF548E0092F9A3 /* Assets.xcassets */; };
+		A7EAE95D1CCF548E0092F9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EAE95B1CCF548E0092F9A3 /* LaunchScreen.storyboard */; };
+		A7EAE9681CCF548E0092F9A3 /* CoolShenBiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE9671CCF548E0092F9A3 /* CoolShenBiTests.m */; };
+		A7EAE9731CCF548E0092F9A3 /* CoolShenBiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE9721CCF548E0092F9A3 /* CoolShenBiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7EAE9641CCF548E0092F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EAE9421CCF548E0092F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EAE9491CCF548E0092F9A3;
+			remoteInfo = CoolShenBi;
+		};
+		A7EAE96F1CCF548E0092F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EAE9421CCF548E0092F9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EAE9491CCF548E0092F9A3;
+			remoteInfo = CoolShenBi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7EAE94A1CCF548E0092F9A3 /* CoolShenBi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolShenBi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAE94E1CCF548E0092F9A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7EAE9501CCF548E0092F9A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7EAE9511CCF548E0092F9A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7EAE9531CCF548E0092F9A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7EAE9541CCF548E0092F9A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7EAE9571CCF548E0092F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7EAE9591CCF548E0092F9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EAE95C1CCF548E0092F9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7EAE95E1CCF548E0092F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EAE9631CCF548E0092F9A3 /* CoolShenBiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolShenBiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAE9671CCF548E0092F9A3 /* CoolShenBiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolShenBiTests.m; sourceTree = "<group>"; };
+		A7EAE9691CCF548E0092F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EAE96E1CCF548E0092F9A3 /* CoolShenBiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolShenBiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAE9721CCF548E0092F9A3 /* CoolShenBiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolShenBiUITests.m; sourceTree = "<group>"; };
+		A7EAE9741CCF548E0092F9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EAE9471CCF548E0092F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE9601CCF548E0092F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE96B1CCF548E0092F9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7EAE9411CCF548E0092F9A3 = {
+			isa = PBXGroup;
+			children = (
+				A7EAE94C1CCF548E0092F9A3 /* CoolShenBi */,
+				A7EAE9661CCF548E0092F9A3 /* CoolShenBiTests */,
+				A7EAE9711CCF548E0092F9A3 /* CoolShenBiUITests */,
+				A7EAE94B1CCF548E0092F9A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EAE94B1CCF548E0092F9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAE94A1CCF548E0092F9A3 /* CoolShenBi.app */,
+				A7EAE9631CCF548E0092F9A3 /* CoolShenBiTests.xctest */,
+				A7EAE96E1CCF548E0092F9A3 /* CoolShenBiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EAE94C1CCF548E0092F9A3 /* CoolShenBi */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAE9501CCF548E0092F9A3 /* AppDelegate.h */,
+				A7EAE9511CCF548E0092F9A3 /* AppDelegate.m */,
+				A7EAE9531CCF548E0092F9A3 /* ViewController.h */,
+				A7EAE9541CCF548E0092F9A3 /* ViewController.m */,
+				A7EAE9561CCF548E0092F9A3 /* Main.storyboard */,
+				A7EAE9591CCF548E0092F9A3 /* Assets.xcassets */,
+				A7EAE95B1CCF548E0092F9A3 /* LaunchScreen.storyboard */,
+				A7EAE95E1CCF548E0092F9A3 /* Info.plist */,
+				A7EAE94D1CCF548E0092F9A3 /* Supporting Files */,
+			);
+			path = CoolShenBi;
+			sourceTree = "<group>";
+		};
+		A7EAE94D1CCF548E0092F9A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAE94E1CCF548E0092F9A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7EAE9661CCF548E0092F9A3 /* CoolShenBiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAE9671CCF548E0092F9A3 /* CoolShenBiTests.m */,
+				A7EAE9691CCF548E0092F9A3 /* Info.plist */,
+			);
+			path = CoolShenBiTests;
+			sourceTree = "<group>";
+		};
+		A7EAE9711CCF548E0092F9A3 /* CoolShenBiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAE9721CCF548E0092F9A3 /* CoolShenBiUITests.m */,
+				A7EAE9741CCF548E0092F9A3 /* Info.plist */,
+			);
+			path = CoolShenBiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7EAE9491CCF548E0092F9A3 /* CoolShenBi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAE9771CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBi" */;
+			buildPhases = (
+				A7EAE9461CCF548E0092F9A3 /* Sources */,
+				A7EAE9471CCF548E0092F9A3 /* Frameworks */,
+				A7EAE9481CCF548E0092F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolShenBi;
+			productName = CoolShenBi;
+			productReference = A7EAE94A1CCF548E0092F9A3 /* CoolShenBi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7EAE9621CCF548E0092F9A3 /* CoolShenBiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAE97A1CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBiTests" */;
+			buildPhases = (
+				A7EAE95F1CCF548E0092F9A3 /* Sources */,
+				A7EAE9601CCF548E0092F9A3 /* Frameworks */,
+				A7EAE9611CCF548E0092F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EAE9651CCF548E0092F9A3 /* PBXTargetDependency */,
+			);
+			name = CoolShenBiTests;
+			productName = CoolShenBiTests;
+			productReference = A7EAE9631CCF548E0092F9A3 /* CoolShenBiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7EAE96D1CCF548E0092F9A3 /* CoolShenBiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAE97D1CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBiUITests" */;
+			buildPhases = (
+				A7EAE96A1CCF548E0092F9A3 /* Sources */,
+				A7EAE96B1CCF548E0092F9A3 /* Frameworks */,
+				A7EAE96C1CCF548E0092F9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EAE9701CCF548E0092F9A3 /* PBXTargetDependency */,
+			);
+			name = CoolShenBiUITests;
+			productName = CoolShenBiUITests;
+			productReference = A7EAE96E1CCF548E0092F9A3 /* CoolShenBiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EAE9421CCF548E0092F9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NewChinese;
+				TargetAttributes = {
+					A7EAE9491CCF548E0092F9A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A7EAE9621CCF548E0092F9A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A7EAE9491CCF548E0092F9A3;
+					};
+					A7EAE96D1CCF548E0092F9A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A7EAE9491CCF548E0092F9A3;
+					};
+				};
+			};
+			buildConfigurationList = A7EAE9451CCF548E0092F9A3 /* Build configuration list for PBXProject "CoolShenBi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7EAE9411CCF548E0092F9A3;
+			productRefGroup = A7EAE94B1CCF548E0092F9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EAE9491CCF548E0092F9A3 /* CoolShenBi */,
+				A7EAE9621CCF548E0092F9A3 /* CoolShenBiTests */,
+				A7EAE96D1CCF548E0092F9A3 /* CoolShenBiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EAE9481CCF548E0092F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAE95D1CCF548E0092F9A3 /* LaunchScreen.storyboard in Resources */,
+				A7EAE95A1CCF548E0092F9A3 /* Assets.xcassets in Resources */,
+				A7EAE9581CCF548E0092F9A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE9611CCF548E0092F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE96C1CCF548E0092F9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EAE9461CCF548E0092F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAE9551CCF548E0092F9A3 /* ViewController.m in Sources */,
+				A7EAE9521CCF548E0092F9A3 /* AppDelegate.m in Sources */,
+				A7EAE94F1CCF548E0092F9A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE95F1CCF548E0092F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAE9681CCF548E0092F9A3 /* CoolShenBiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAE96A1CCF548E0092F9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAE9731CCF548E0092F9A3 /* CoolShenBiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7EAE9651CCF548E0092F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EAE9491CCF548E0092F9A3 /* CoolShenBi */;
+			targetProxy = A7EAE9641CCF548E0092F9A3 /* PBXContainerItemProxy */;
+		};
+		A7EAE9701CCF548E0092F9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EAE9491CCF548E0092F9A3 /* CoolShenBi */;
+			targetProxy = A7EAE96F1CCF548E0092F9A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7EAE9561CCF548E0092F9A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EAE9571CCF548E0092F9A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7EAE95B1CCF548E0092F9A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EAE95C1CCF548E0092F9A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7EAE9751CCF548E0092F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7EAE9761CCF548E0092F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7EAE9781CCF548E0092F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoolShenBi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7EAE9791CCF548E0092F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoolShenBi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7EAE97B1CCF548E0092F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoolShenBiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolShenBi.app/CoolShenBi";
+			};
+			name = Debug;
+		};
+		A7EAE97C1CCF548E0092F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoolShenBiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolShenBi.app/CoolShenBi";
+			};
+			name = Release;
+		};
+		A7EAE97E1CCF548E0092F9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoolShenBiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoolShenBi;
+			};
+			name = Debug;
+		};
+		A7EAE97F1CCF548E0092F9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoolShenBiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xinguoren.com.CoolShenBiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoolShenBi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EAE9451CCF548E0092F9A3 /* Build configuration list for PBXProject "CoolShenBi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAE9751CCF548E0092F9A3 /* Debug */,
+				A7EAE9761CCF548E0092F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EAE9771CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAE9781CCF548E0092F9A3 /* Debug */,
+				A7EAE9791CCF548E0092F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7EAE97A1CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAE97B1CCF548E0092F9A3 /* Debug */,
+				A7EAE97C1CCF548E0092F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7EAE97D1CCF548E0092F9A3 /* Build configuration list for PBXNativeTarget "CoolShenBiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAE97E1CCF548E0092F9A3 /* Debug */,
+				A7EAE97F1CCF548E0092F9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EAE9421CCF548E0092F9A3 /* Project object */;
+}
